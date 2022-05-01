@@ -1,7 +1,7 @@
 import { describe, expect, test } from '@jest/globals';
 
 describe("data_type", () => {
-    test("example dynamically typed", () => {
+    test("dynamically typed", () => {
         // 没有错误
         let message = "hello";
         message = 123456;
@@ -9,7 +9,7 @@ describe("data_type", () => {
         console.log(`message is ${message}`);
     });
 
-    test("example object and symbol", () => {
+    test("object and symbol", () => {
         // object 类型是一个特殊的类型。
 
         // 其他所有的数据类型都被称为“原始类型”，因为它们的值只包含一个单独的内容（字符串、数字或者其他）。
@@ -21,7 +21,7 @@ describe("data_type", () => {
         // 但我们要在学完 object 类型后再学习它。
     });
 
-    test("example typeof", () => {
+    test("typeof", () => {
         // typeof 运算符返回参数的类型。当我们想要分别处理不同类型值的时候，或者想快速进行数据类型检验时，非常有用。
 
         // 对 typeof x 的调用会以字符串的形式返回数据类型：
